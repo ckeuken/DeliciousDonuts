@@ -1,0 +1,11 @@
+:root {
+  --font-color: rgb(94,43,49);
+  --border-color: rgb(175, 183, 189);
+  --form-bg-color: rgb(250, 250, 250);
+  --bg-color-input: rgb(209,222,233);
+  --bg-input-focus: rgb(147, 171, 191);
+  --button-color: rgb(240,0,75);
+  
+  --header-font-stack: 'Fredoka One', cursive;
+  --body-font-stack: 'Lato', sans-serif; 
+  }  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="variables.css">
+	<link rel="stylesheet" media= "screen and (max-width: 768px)" href="mobile.css">
+  <script src="app.js" defer></script>
+
+<title>Delicious Donuts</title>
+</head> 
+<body> 
+
+	<header>
+		<h1>Crave Donuts???</h1><br>
+	  <h2>Sign Up for a free account and <br>
+	      receive 3 donuts for free!!!</h2>
+	</header>
+
+<div class="container">
+	<div id="error"></div><!--Store error messages-->
+		<form id= "form_group" action="" method="GET" >
+			<label for="firstn"><b>First name:</b></label><br>
+				<input type="text" name="firstn" id="firstn"><br>
+			
+			<label for="lastn"><b>Last name:</b></label><br>
+				<input type="text" name="lastn" id="lastn"><br>
+
+			<label for="email"><b>Your Email:</b></label><br>
+			<input type="text" name="email" id="email"><br>
+			
+			<label for="psw"><b>Set a password:</b></label><br>
+				<input type="password" id="password" name="password"><br>
+			
+			<label for="howFind" id="howf">How did you hear about us?</label>
+			<select name="howFind">
+				<option>Please select</option>
+				<option>Search engine</option>
+				<option>Social media</option>
+				<option>Television</option>
+				<option>Word of mouth</option>
+				<option>Other</option>
+			</select>
+
+	<p>By clicking this button you aggree to our <a href="#">Terms & Privacy</a></p>
+	<button type="submit" class="signup" onclick="alert_box()">Create Account</button>
+</form>
+
+<img src="delicious-donuts_1.png" alt="delic-donuts"> 
+
+</div>
+</body>
+</html>

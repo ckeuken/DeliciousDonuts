@@ -1,0 +1,17 @@
+header {
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  padding: 1rem;
+}
+
+img {
+  order: -1;
+  width: 100%;
+}
+
+.container {
+  flex-direction: column;
+}
